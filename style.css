@@ -1,0 +1,72 @@
+header{
+    background-image: url("/pollo_fondo.jpg") ;
+   
+
+}
+header nav{
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+
+}
+
+header nav img{
+   width: 200px;
+}
+header nav div{
+   /* background-color: chartreuse; */
+   
+}
+header nav div ul{
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+   
+   margin: 10px;
+   padding: 10px;
+   width: 100%;
+
+   background-color: rgb(228, 178, 158);
+
+   
+}
+header nav div ul li{
+   display: inline-block;
+   
+}
+header nav div ul li a{
+   
+   display: flex;
+   flex-direction: row;
+   
+   text-decoration: none;
+   text-decoration-line: none;
+
+
+   margin: 10px;
+   padding: 10px;
+   width: 100%;
+
+   font-size: 20px;
+   
+}
+header nav div ul li a:hover {
+   color: white;
+}
+
+
+
+
+
+section{
+   background-color: rgb(145, 145, 211);
+}
+
+
+
+
+
+footer{
+   background-color: yellow;
+}
